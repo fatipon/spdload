@@ -21,3 +21,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/MyCabinet', 'MyCabinetController@MyCabinet')->name('MyCabinet');
 
+Route::post('/image/upload', 'ImageController@upload')->name('image.upload');
